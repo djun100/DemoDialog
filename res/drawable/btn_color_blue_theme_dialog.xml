@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- item中嵌套shape的时候，如果item自身设置drawable属性背景，则shape子节点配置失效，drawable属性与shape节点相冲突 -->
+    <item 
+        android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/blue_release"/>
+            <corners android:bottomRightRadius="5dip" /> 
+        </shape>
+	</item>
+	
+	<item 
+	    
+	    android:state_pressed="true">
+	        <shape 
+	            android:shape="rectangle">
+            <solid android:color="@color/blue_press"/>
+            <corners android:bottomRightRadius="5dip" />
+        	</shape>
+	</item>
+</selector>
+<!--         android:drawable="@color/blue_release"  -->
+<!-- android:drawable="@color/blue_press"  -->

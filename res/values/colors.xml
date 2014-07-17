@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 对话框按钮 -->
+    <color name="blue_release">#0000ff</color>
+    <color name="blue_press">#1B2F45</color>
+
+</resources>
